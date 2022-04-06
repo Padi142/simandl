@@ -6,13 +6,7 @@ import 'package:simandl/src/ui/pages/main_page.dart';
 class PofelWebApp extends StatelessWidget {
   const PofelWebApp({
     Key? key,
-    required this.link,
-    required this.invite,
-    required this.page,
   }) : super(key: key);
-  final String link;
-  final String invite;
-  final String page;
 
   // This widget is the root of your application.
   @override
